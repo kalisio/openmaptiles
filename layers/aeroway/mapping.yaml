@@ -21,6 +21,7 @@ tables:
   aeroway_polygon:
     type: polygon
     fields:
+    - *ref
     - name: osm_id
       type: id
     - name: geometry
@@ -45,6 +46,7 @@ tables:
   aeroway_linestring:
     type: linestring
     fields:
+    - *ref
     - name: osm_id
       type: id
     - name: geometry
